@@ -1,0 +1,280 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.17f1 (03b40fe07a36) revision 242703'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 22000.318; Version 2009; 64bit' Language: 'es' Physical Memory: 16309 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/XPC/Desktop/Aaron/UCR/VideoJuegos/BasicGame - copia/CubeThon
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54966
+Successfully changed project path to: C:/Users/XPC/Desktop/Aaron/UCR/VideoJuegos/BasicGame - copia/CubeThon
+C:/Users/XPC/Desktop/Aaron/UCR/VideoJuegos/BasicGame - copia/CubeThon
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 55.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.17f1 (03b40fe07a36)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/XPC/Desktop/Aaron/UCR/VideoJuegos/BasicGame - copia/CubeThon/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12143 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000901 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 63.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.108 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1108ms)
+		BeginReloadAssembly (39ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (299ms)
+			LoadAssemblies (38ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (99ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (154ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (63ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (67ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002962 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\XPC\Desktop\Aaron\UCR\VideoJuegos\BasicGame - copia\CubeThon\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\XPC\Desktop\Aaron\UCR\VideoJuegos\BasicGame - copia\CubeThon\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.755 seconds
+Domain Reload Profiling:
+	ReloadAssembly (755ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (620ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (278ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2959 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.5 MB.
+System memory in use after: 106.7 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3405.
+Total: 2.497400 ms (FindLiveObjects: 0.188700 ms CreateObjectMapping: 0.071200 ms MarkObjects: 2.199600 ms  DeleteObjects: 0.037400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Personaje/Ch14_nonPBR@Falling 1.fbx
+  artifactKey: Guid(327b3244dd94fcb47a16dbcdb96a503c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personaje/Ch14_nonPBR@Falling 1.fbx using Guid(327b3244dd94fcb47a16dbcdb96a503c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6eb6fb2b1d705a6e73d3447b3d4105') in 0.146849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.844291 seconds.
+  path: Assets/Personaje/Ch14_nonPBR@Falling 2.fbx
+  artifactKey: Guid(56b590d5f2b55a448bcd5c32c1e257b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personaje/Ch14_nonPBR@Falling 2.fbx using Guid(56b590d5f2b55a448bcd5c32c1e257b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2b3349396040522608172c071a56b4') in 0.033243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.933816 seconds.
+  path: Assets/Personaje/Ch14_nonPBR@Jump 1.fbx
+  artifactKey: Guid(b4099cfe7c642d041bcfeb46999588f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personaje/Ch14_nonPBR@Jump 1.fbx using Guid(b4099cfe7c642d041bcfeb46999588f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95c877cd04af364e90fe30ea032e14d') in 0.029002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 269.313174 seconds.
+  path: Assets/Personaje/Ch14_nonPBR@Jump.fbx
+  artifactKey: Guid(ae6678f8ff82ab84f88f47f440b74916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personaje/Ch14_nonPBR@Jump.fbx using Guid(ae6678f8ff82ab84f88f47f440b74916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7046558f3f5812da61a2769030896e99') in 0.026934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.004287 seconds.
+  path: Assets/Personaje/Ch14_nonPBR@Falling.fbx
+  artifactKey: Guid(95906fac02da30a43bdb2703dd1d22fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personaje/Ch14_nonPBR@Falling.fbx using Guid(95906fac02da30a43bdb2703dd1d22fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff7fb230c98c85e7a7460e83d742043') in 0.020285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.614895 seconds.
+  path: Assets/Personaje/Ch14_nonPBR@Falling.fbx
+  artifactKey: Guid(95906fac02da30a43bdb2703dd1d22fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personaje/Ch14_nonPBR@Falling.fbx using Guid(95906fac02da30a43bdb2703dd1d22fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd513451af40a7d98aa39ed9ac62511ba') in 0.020494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.977194 seconds.
+  path: Assets/Personaje/Falling.anim
+  artifactKey: Guid(b3244966bf64e424286cb60d6fe28932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personaje/Falling.anim using Guid(b3244966bf64e424286cb60d6fe28932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20de7d59e058968a7445c6f87438ed9') in 0.018371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.255622 seconds.
+  path: Assets/Personaje/Ch14_nonPBR@Jump.fbx
+  artifactKey: Guid(ae6678f8ff82ab84f88f47f440b74916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personaje/Ch14_nonPBR@Jump.fbx using Guid(ae6678f8ff82ab84f88f47f440b74916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6bc50cb272fb6f015255b7cd1fbd654') in 0.033901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.053034 seconds.
+  path: Assets/Personaje/Jump.anim
+  artifactKey: Guid(f92165840b50c0c47acce56493dee5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personaje/Jump.anim using Guid(f92165840b50c0c47acce56493dee5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8205f7806cda3f0c9af80bc803320c17') in 0.012307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 200.901897 seconds.
+  path: Assets/Personaje/Ch14_nonPBR@Falling Idle (1).fbx
+  artifactKey: Guid(12924de6dddb26841b5e68ccf14b0206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personaje/Ch14_nonPBR@Falling Idle (1).fbx using Guid(12924de6dddb26841b5e68ccf14b0206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57d34ceb9cee2ecd135789ecfdca210') in 0.031295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.088233 seconds.
+  path: Assets/Personaje/Ch14_nonPBR@Falling Idle (1).fbx
+  artifactKey: Guid(12924de6dddb26841b5e68ccf14b0206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personaje/Ch14_nonPBR@Falling Idle (1).fbx using Guid(12924de6dddb26841b5e68ccf14b0206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ef115c2c8d524ce51d809c066bde72') in 0.017977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.253874 seconds.
+  path: Assets/Personaje/Falling Idle (1).anim
+  artifactKey: Guid(859e2c7e5b2e07c42a74c3e6dd878d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personaje/Falling Idle (1).anim using Guid(859e2c7e5b2e07c42a74c3e6dd878d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2986ac04886bfcca74f5da5676167b3') in 0.008482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 320.993831 seconds.
+  path: Assets/Animations/Level03Obstacles7.anim
+  artifactKey: Guid(5917e65c364ad8c409c148685093fc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Level03Obstacles7.anim using Guid(5917e65c364ad8c409c148685093fc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b15ffd530c34b42dd597c5f9c9c11e') in 0.007624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.989206 seconds.
+  path: Assets/Animations/Obstacle (13).controller
+  artifactKey: Guid(b5500e9b24b84c74e913a797cacd041a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Obstacle (13).controller using Guid(b5500e9b24b84c74e913a797cacd041a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a458479b0e2533eb514806c1042bf06') in 0.008071 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002834 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\XPC\Desktop\Aaron\UCR\VideoJuegos\BasicGame - copia\CubeThon\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\XPC\Desktop\Aaron\UCR\VideoJuegos\BasicGame - copia\CubeThon\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.735 seconds
+Domain Reload Profiling:
+	ReloadAssembly (735ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (616ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (203ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (278ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (32ms)
+				ProcessInitializeOnLoadAttributes (236ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2953 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.7 MB.
+System memory in use after: 125.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3452.
+Total: 2.540000 ms (FindLiveObjects: 0.166100 ms CreateObjectMapping: 0.084400 ms MarkObjects: 2.274900 ms  DeleteObjects: 0.013900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 141.676007 seconds.
+  path: Assets/Personaje/Animaciones/Controlador Persoanje 1.controller
+  artifactKey: Guid(13c1a63522b707a4db3122b7fa20c94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personaje/Animaciones/Controlador Persoanje 1.controller using Guid(13c1a63522b707a4db3122b7fa20c94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612c54be1e29f09f589da093083deb20') in 0.057309 seconds 
