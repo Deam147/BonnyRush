@@ -24,18 +24,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Creditos.unity
     guid: a24c48367f876ea428110a3902217cb1
   - enabled: 1
-    path: Assets/Menu.unity
+    path: Assets/Scenes/Menu.unity
     guid: be9eb17110c67a8459ad2d9266769604
   - enabled: 1
-    path: Assets/Level01.unity
+    path: Assets/Scenes/Level01.unity
     guid: 09c24406e75f62b4f98e95e0c2a05143
   - enabled: 1
-    path: Assets/Level02.unity
+    path: Assets/Scenes/Level02.unity
     guid: 90c4af7bee06f6e46a0ed15ee290e104
   - enabled: 1
-    path: Assets/Level03.unity
+    path: Assets/Scenes/Level03.unity
     guid: 344310aedda58c845a1fa11e9d947377
   - enabled: 1
-    path: Assets/Credits.unity
+    path: Assets/Scenes/Credits.unity
     guid: 947387e4b8b4fd94fbfc3bc41642c6e3
   m_configObjects: {}
