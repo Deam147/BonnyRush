@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerCollision : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class PlayerCollision : MonoBehaviour
         movement.enabled = false; // se referencia el script de PlayerMovement arrastrandolo al slot de movement 
         //desde Unity
 
-        FindObjectOfType<GameManager>().EndGame();//busca un objeto tipo gameManager
+         SceneManager.LoadScene("Perdida");
 
     }
 

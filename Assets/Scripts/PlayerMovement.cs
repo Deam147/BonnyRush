@@ -1,11 +1,11 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
     public Rigidbody rb;
 
-    // variables para la fuerza y poder editarla en Unity
-    public float forwardForce = 2000f;
+    // variables para la fuerza y poder editarla en Unitypublic float forwardForce = 2000f;
     //public float sideWaysForce = 500f;
 
 
@@ -16,21 +16,23 @@ public class PlayerMovement : MonoBehaviour
         //rb.AddForce(0,0,forwardForce * Time.deltaTime);// Time.deltaTime hace que los frames actuan conforme al rendimiento del pc
 
         //MOVER DERECHA
-        if (Input.GetKey("d"))
+        //if (Input.GetKey("d"))
         {
            // rb.AddForce(sideWaysForce * Time.deltaTime,0,0, ForceMode.VelocityChange);//cambia la velocidad sin contar 
             //ForcemMode.VelocityChange su masa
         }
 
         //MOVER IZQUIERDA
-        if (Input.GetKey("a"))
+        //if (Input.GetKey("a"))
         {
             //rb.AddForce(-sideWaysForce * Time.deltaTime,0,0, ForceMode.VelocityChange);
         }
 
-        if (rb.position.y < -1f)
+        //if (rb.position.y < -1f)
         {
-            FindObjectOfType<GameManager>().EndGame();
+           //SceneManager.LoadScene("Menu");
         }
     }
+
+   
 }

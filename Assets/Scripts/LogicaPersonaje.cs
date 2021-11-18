@@ -1,18 +1,20 @@
 
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LogicaPersonaje : MonoBehaviour
 {
 
     public float velocidadMovimiento = 5.0f;
-     public float forwardForce = 2000f;
+     public float forwardForce = 200f;
 
-    public float velocidadRotacion = 200.0f;
+    public float velocidadRotacion = 200f;
     public float x,y,z;//nos permite saber si el jugador se mueve
 
     public Rigidbody rb; 
     public float fuerzaSalto = 8f;
     public float fuerzaBajar = 1f;
+    public float sideWaysForce = 500f;
     public bool saltando;
 
     private Animator anim;// accede al componenten de la animacion
@@ -28,9 +30,28 @@ public class LogicaPersonaje : MonoBehaviour
     
     void FixedUpdate() { // estandariza la velocidad de los frames en las pc
         
-        transform.Rotate(0, x * Time.deltaTime * forwardForce*10, 0);//le permite rotar en el eje x
-        transform.Translate(0,0, y * Time.deltaTime * forwardForce);// permite desplazarse en el eje y 
+        //transform.Translate(0, x * Time.deltaTime * forwardForce, 0);//le permite rotar en el eje x
+        //transform.Translate(0,0, y * Time.deltaTime * forwardForce);// permite desplazarse en el eje y 
 
+
+         //MOVER DERECHA
+        if (Input.GetKey("d"))
+        {
+           rb.AddForce(sideWaysForce * Time.deltaTime,0,0, ForceMode.VelocityChange);
+        }
+
+        //MOVER IZQUIERDA
+        if (Input.GetKey("a"))
+        {
+            rb.AddForce(-sideWaysForce * Time.deltaTime,0,0, ForceMode.VelocityChange);
+        }
+
+
+
+         if (rb.position.y < -1f)
+        {
+           SceneManager.LoadScene("Perdida");
+        }
     }
 
     void Update() {
@@ -56,6 +77,8 @@ public class LogicaPersonaje : MonoBehaviour
             EstoyCayendo();
         }
 
+       
+
     } 
 
     public void EstoyCayendo(){
@@ -63,5 +86,6 @@ public class LogicaPersonaje : MonoBehaviour
         anim.SetBool("TocarSuelo", false); 
         anim.SetBool("Saltar", false);
     }
+
 
 }
