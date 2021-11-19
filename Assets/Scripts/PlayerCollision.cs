@@ -13,10 +13,8 @@ public class PlayerCollision : MonoBehaviour
         //desde Unity
 
          SceneManager.LoadScene("Perdida");
-
     }
+}
 
-  
 
-    }
 }

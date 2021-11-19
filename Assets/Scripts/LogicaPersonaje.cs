@@ -17,6 +17,10 @@ public class LogicaPersonaje : MonoBehaviour
     public float sideWaysForce = 500f;
     public bool saltando;
 
+    public int carrot = 0;
+    public int coin = 0;
+    public int points = 0;
+
     private Animator anim;// accede al componenten de la animacion
 
 
@@ -77,7 +81,7 @@ public class LogicaPersonaje : MonoBehaviour
             EstoyCayendo();
         }
 
-       
+       sumarPuntos();
 
     } 
 
@@ -87,5 +91,25 @@ public class LogicaPersonaje : MonoBehaviour
         anim.SetBool("Saltar", false);
     }
 
+     private void OnTriggerEnter(Collider other) {
+          
+          if (other.CompareTag("Carrot"))
+          {
+              Debug.Log("Ganaste 5 puntos"); 
+              carrot = carrot + 5;   
+          }
+
+           if (other.CompareTag("Coin"))
+          {
+              Debug.Log("Ganaste 50 puntos");
+              coin = coin + 50;  
+          }
+      }  
+
+    public void sumarPuntos(){
+
+        points = carrot + coin;
+
+    }
 
 }

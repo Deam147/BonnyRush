@@ -8,6 +8,8 @@ TagManager:
   - Ground
   - CityPiece
   - obstaclesPiece
+  - Carrot
+  - Coin
   layers:
   - Default
   - TransparentFX

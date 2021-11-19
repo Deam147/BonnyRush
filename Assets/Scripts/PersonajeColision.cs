@@ -13,9 +13,6 @@ public class PersonajeColision : MonoBehaviour
 
         FindObjectOfType<GameManager>().EndGame();//busca un objeto tipo gameManager
 
-    }
-
-  
-
-    }
+     }
+ }
 }
