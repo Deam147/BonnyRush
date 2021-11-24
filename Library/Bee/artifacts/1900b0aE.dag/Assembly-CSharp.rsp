@@ -337,6 +337,7 @@
 "Assets/Scripts/PointsControler.cs"
 "Assets/Scripts/Score.cs"
 "Assets/Scripts/Spawner.cs"
+"Assets/Scripts/StartScreenMovement.cs"
 -langversion:8.0
 
 /deterministic

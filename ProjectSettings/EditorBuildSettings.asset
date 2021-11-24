@@ -9,20 +9,23 @@ EditorBuildSettings:
     path: Assets/Scenes/PantallaInicial.unity
     guid: 331a862ece845e74389cc0aaabbc4ea5
   - enabled: 1
+    path: Assets/Scenes/InfiniteMode.unity
+    guid: b74ec675f4abd644eb4fe9b9a224e87e
+  - enabled: 1
     path: Assets/Scenes/Controles.unity
     guid: 24adabe93de22a24a89e23e439ed343f
   - enabled: 1
     path: Assets/Scenes/Puntuaciones.unity
     guid: 13ea90fe33b377d45ac6f73c9e504ec9
   - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: a24c48367f876ea428110a3902217cb1
+  - enabled: 1
     path: Assets/Scenes/Gane.unity
     guid: 22efd0a8a16d52146827194119a6dab8
   - enabled: 1
     path: Assets/Scenes/Perdida.unity
     guid: 3f6d41fea6894df40ae3a7f6148bd1a9
-  - enabled: 1
-    path: Assets/Scenes/Creditos.unity
-    guid: a24c48367f876ea428110a3902217cb1
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: be9eb17110c67a8459ad2d9266769604

@@ -48,6 +48,7 @@
      <Compile Include="Assets\Scripts\Spawner.cs" />
      <Compile Include="Assets\Scripts\PointsControler.cs" />
      <Compile Include="Assets\Scripts\FollowPlayer.cs" />
+     <Compile Include="Assets\Scripts\StartScreenMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Credits.cs" />
      <Compile Include="Assets\Scripts\Menu.cs" />
@@ -665,6 +666,9 @@
     <Reference Include="VSSettingsProvider">
         <HintPath>C:/Users/XPC/Documents/GitHub/Juego/RobbyRush/Library/ScriptAssemblies/VSSettingsProvider.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+        <HintPath>C:/Users/XPC/Documents/GitHub/Juego/RobbyRush/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
         <HintPath>C:/Users/XPC/Documents/GitHub/Juego/RobbyRush/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
@@ -685,9 +689,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
         <HintPath>C:/Users/XPC/Documents/GitHub/Juego/RobbyRush/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>C:/Users/XPC/Documents/GitHub/Juego/RobbyRush/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
