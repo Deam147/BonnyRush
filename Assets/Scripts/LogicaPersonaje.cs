@@ -1,6 +1,7 @@
 
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class LogicaPersonaje : MonoBehaviour
 {
@@ -18,7 +19,9 @@ public class LogicaPersonaje : MonoBehaviour
     public bool saltando;
 
     public int carrot = 0;
+    public int carrotTxt = 0;
     public int coin = 0;
+    public int coinTxt = 0;
     public int points = 0;
 
     private Animator anim;// accede al componenten de la animacion
@@ -96,13 +99,16 @@ public class LogicaPersonaje : MonoBehaviour
           if (other.CompareTag("Carrot"))
           {
               Debug.Log("Ganaste 5 puntos"); 
-              carrot = carrot + 5;   
+              carrot = carrot + 5; 
+              carrotTxt++;
+            
           }
 
            if (other.CompareTag("Coin"))
           {
               Debug.Log("Ganaste 50 puntos");
               coin = coin + 50;  
+              coinTxt++;
           }
       }  
 

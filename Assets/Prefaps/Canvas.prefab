@@ -461,5 +461,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f09d90584d29c458e698289b8551cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  logicaPersonaje: {fileID: 0}
   player: {fileID: 0}
   scoreText: {fileID: 4342894588426699066}
