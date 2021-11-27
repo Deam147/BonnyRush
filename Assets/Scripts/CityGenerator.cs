@@ -38,8 +38,9 @@ public class CityGenerator : MonoBehaviour
         cityPiece.gameObject.SetActive(true);
         cityPiece.SetParent(city);
         cityPieces.Remove(cityPiece);
+        Debug.Log(" se genero una pieza");
 
-        Invoke("GenerateCity", 3.5f);
+        Invoke("GenerateCity", 4f);
 
     }
 
@@ -61,15 +62,11 @@ public class CityGenerator : MonoBehaviour
     {
         Transform t = coll.GetComponent<Transform>();
         t.SetParent(null);
-        if (coll.CompareTag("CityPiece"))
-        {
-            cityPieces.Add(t);
+        
+        cityPieces.Add(t);
+        Debug.Log(t + " se anadio");
 
-        }else if (coll.CompareTag("obstaclesPiece"))
-        {
-            obstaclesPieces.Add(t);
 
-        }
         coll.gameObject.SetActive(false);
     }
 }
