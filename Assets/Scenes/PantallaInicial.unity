@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1436,8 +1436,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: d87ead619d4719e469d9a65009e3231c, type: 3}
-    m_PressedSprite: {fileID: 21300000, guid: a774dc7ec238413418426886448b851e, type: 3}
+    m_HighlightedSprite: {fileID: 21300000, guid: 0fa33010fc5a7734bacc285b98a5f472, type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: d0d0a7975b3b59947aa3b7d53866fa4d, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -1483,7 +1483,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9c0cfb0dbe03d714b9e08867981b8d5e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1e6b9e8ed7237bc47bb4efa0c929d278, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
