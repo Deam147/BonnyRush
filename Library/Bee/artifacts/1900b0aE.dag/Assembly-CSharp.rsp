@@ -341,6 +341,7 @@
 "Assets/Scripts/Sound/AudioManagerMenu.cs"
 "Assets/Scripts/Spawner.cs"
 "Assets/Scripts/StartScreenMovement.cs"
+"Assets/Scripts/Timer.cs"
 -langversion:8.0
 
 /deterministic
