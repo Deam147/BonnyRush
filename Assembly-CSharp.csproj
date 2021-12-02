@@ -59,12 +59,15 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Timer.cs" />
     <Compile Include="Assets\Scripts\PersonajeColision.cs" />
     <Compile Include="Assets\Scripts\LogicaPies.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\LogicaPersonaje.cs" />
     <Compile Include="Assets\Scripts\PlayerCollision.cs" />
+    <Compile Include="Assets\Scripts\PerdidaHelper.cs" />
     <Compile Include="Assets\Scripts\CityGenerator.cs" />
+    <Compile Include="Assets\Scripts\PuntajeHelper.cs" />
     <Compile Include="Assets\Scripts\Sound\AudioManager.cs" />
     <Compile Include="Assets\Scripts\EndTrigger.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
@@ -80,8 +83,6 @@
     <Compile Include="Assets\Scripts\MoveObstacles.cs" />
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\CambiarScena.cs" />
-    <Compile Include="Assets\Scripts\PerdidaHelper.cs" />
-    <Compile Include="Assets\Scripts\PuntajeHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
