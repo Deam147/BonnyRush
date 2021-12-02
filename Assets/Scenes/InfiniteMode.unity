@@ -41741,7 +41741,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3014149763618604741, guid: 83bd81c8b2d9fc24eaf708ce6a770df3, type: 3}
       propertyPath: m_UseGravity
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3014149763618604741, guid: 83bd81c8b2d9fc24eaf708ce6a770df3, type: 3}
       propertyPath: m_Constraints
@@ -41749,7 +41749,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3014149763618604741, guid: 83bd81c8b2d9fc24eaf708ce6a770df3, type: 3}
       propertyPath: m_IsKinematic
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3014149763618604760, guid: 83bd81c8b2d9fc24eaf708ce6a770df3, type: 3}
       propertyPath: fuerzaBajar
@@ -41781,7 +41781,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3341336950092483936, guid: 83bd81c8b2d9fc24eaf708ce6a770df3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.65
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 3341336950092483936, guid: 83bd81c8b2d9fc24eaf708ce6a770df3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -66338,7 +66338,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1830769214
 Transform:
   m_ObjectHideFlags: 0
