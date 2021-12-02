@@ -2,12 +2,14 @@ using UnityEngine;
 using UnityEngine.SceneManagement;// para manejar las escenas
 
 public class GameManager : MonoBehaviour{
-
     bool gameHasEnded = false; 
 
     public GameObject completeLevelUI; //acceder al Ui del panel
 
+    public LogicaPersonaje logicaPersonaje;
     public float restartDelay = 1f;
+
+
 
     public void CompleteLevel(){
 
@@ -32,4 +34,8 @@ public class GameManager : MonoBehaviour{
 
    }
 
+    
+        
+
+        
 }

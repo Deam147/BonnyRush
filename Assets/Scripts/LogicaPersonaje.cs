@@ -118,4 +118,21 @@ public class LogicaPersonaje : MonoBehaviour
 
     }
 
+    public bool GuardarPuntaje(int posicion, int valor)
+    {
+        try
+        {
+            PlayerPrefs.SetInt("Pos" + posicion.ToString(), valor);
+        }
+        catch (System.Exception)
+        {
+            return false;
+        }
+        return true;
+    }
+
+    public int ObtenerPuntaje(int posicion)
+    {
+        return PlayerPrefs.GetInt("Pos" + posicion.ToString(), 0);
+    }
 }
