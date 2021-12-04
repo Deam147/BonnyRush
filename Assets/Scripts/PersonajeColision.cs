@@ -1,8 +1,9 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;// para manejar las escenas
 
 public class PersonajeColision : MonoBehaviour
 {
-    public PlayerMovement movement;
+    public PlayerMovement2 movement;
 
     void OnCollisionEnter(Collision collisionInfo){ // metodo para colisiones
 
@@ -12,7 +13,7 @@ public class PersonajeColision : MonoBehaviour
         //desde Unity
 
         FindObjectOfType<GameManager>().EndGame();//busca un objeto tipo gameManager
-
+         SceneManager.LoadScene("Perdida");
      }
  }
 }
