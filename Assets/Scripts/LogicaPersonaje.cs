@@ -110,6 +110,11 @@ public class LogicaPersonaje : MonoBehaviour
               coin = coin + 50;  
               coinTxt++;
           }
+
+            if (other.CompareTag("Obstacle"))
+          {
+              SceneManager.LoadScene("Perdida");
+          }
       }  
 
     public void sumarPuntos(){
