@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;// para manejar las escenas
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour{
 
@@ -31,5 +32,21 @@ public class GameManager : MonoBehaviour{
        }
 
    }
+
+
+   public LogicaPersonaje logicaPersonaje;
+    public Transform player; // se referencia el jugador al slot de player desde Unity
+    public Text scoreText;// Text referencia a los textos en Unity
+    public Text carrotText;
+    public Text coinText;
+
+    // Update is called once per frame
+    void Update()
+    {
+        scoreText.text = logicaPersonaje._points.ToString("0");
+        carrotText.text = logicaPersonaje.carrotTxt.ToString("0");
+        coinText.text = logicaPersonaje.coinTxt.ToString("0");
+    }
+
 
 }

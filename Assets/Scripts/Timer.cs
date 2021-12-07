@@ -8,6 +8,8 @@ public class Timer : MonoBehaviour
 {
 
    public CityGenerator cityGenerator;
+
+   public int conteo = 1;
     [SerializeField] Text timerTxt;
     public float currentTime = 0f;
     public float startingTime = 96f;
@@ -18,6 +20,7 @@ public class Timer : MonoBehaviour
     void Start()
     {
         currentTime = startingTime;
+         Invoke("aumentarVelocidad",95.99f);
     }
 
     // Update is called once per frame
@@ -32,8 +35,18 @@ public class Timer : MonoBehaviour
             currentTime = startingTime;
         } 
         
-       velocidadTxt.text = "Velocidad: " + cityGenerator.conteo.ToString();
+       velocidadTxt.text = "Vel: " + conteo.ToString();
 
+    }
+
+     public void aumentarVelocidad(){
+ 
+         conteo++; 
+         if (conteo <= 5)
+         {
+             Invoke("aumentarVelocidad",95.99f); 
+         }
+         
     }
    
 }

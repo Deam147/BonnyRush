@@ -49,6 +49,8 @@
      <Compile Include="Assets\Scripts\Spawner.cs" />
      <Compile Include="Assets\Scripts\PointsControler.cs" />
      <Compile Include="Assets\Scripts\StartScreenMovement.cs" />
+     <Compile Include="Assets\Scripts\PuntajeHelper.cs" />
+     <Compile Include="Assets\Scripts\PerdidaHelper.cs" />
      <Compile Include="Assets\Scripts\MoveObstacles.cs" />
      <Compile Include="Assets\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\CambiarScena.cs" />

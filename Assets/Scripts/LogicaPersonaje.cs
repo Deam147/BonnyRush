@@ -22,7 +22,7 @@ public class LogicaPersonaje : MonoBehaviour
     public int carrotTxt = 0;
     public int coin = 0;
     public int coinTxt = 0;
-    public int points = 0;
+    public int _points = 0;
 
     private Animator anim;// accede al componenten de la animacion
 
@@ -119,8 +119,26 @@ public class LogicaPersonaje : MonoBehaviour
 
     public void sumarPuntos(){
 
-        points = carrot + coin;
+        _points = carrot + coin;
 
     }
 
+
+    //Singelton
+    private static LogicaPersonaje _instancia;
+    public static LogicaPersonaje instancia
+    {
+        get
+        {
+            return _instancia;
+        }
+    }
+    //Miembros de clase privados
+
+    public int ObtenerPuntaje()
+    {
+        return _points;
+    }
+
+   
 }
